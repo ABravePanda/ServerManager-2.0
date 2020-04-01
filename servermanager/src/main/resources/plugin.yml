@@ -1,0 +1,11 @@
+name: ServerManager
+version: "1.0-SNAPSHOT"
+author: Nicholas Tompkins
+main: com.tompkins_development.plugins.servermanager.Main
+commands:
+  servermanager:
+    aliases: [sm]
+    description: Main command
+  message:
+    aliases: [msg]
+    description: Message someone!

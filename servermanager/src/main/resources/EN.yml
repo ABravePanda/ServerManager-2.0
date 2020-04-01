@@ -1,0 +1,87 @@
+#Format
+
+# Message Name: "Message"
+#    Description: Description of when the text is used.
+#    Placeholders:
+#    	%holder1% : Description of when the placeholder is used.
+#    	%holder2% : Description of when the placeholder is used.
+
+messages:
+    #General
+    No_Permission: "&cYou don't have permission to do this!"
+        #Description: Used when the player doesn't have the permission for an action
+        #Placeholders: n/a
+    Sender_Error: "&cYou need to be a player to use this!"
+        #Description: Used when console/command blocks/etc try to use a command
+        #Placeholders: n/a
+        
+    #Chat Status
+    Chat_Off_To_Person: "&cYou have turned off chat"
+        #Description: Sent to player who turns off chat!
+        #Placeholders: n/a
+    Chat_On_To_Person: "&aYou have turned on chat"
+        #Description: Sent to player who turns on chat!
+        #Placeholders: n/a   
+    Chat_Off_To_Server: "&c%player% has disabled chat!"
+        #Description: Sent to server when chat is disabled
+        #Placeholders:
+        #   %player% - Player name who turned off chat
+    Chat_On_To_Server: "&a%player% has enabled chat!"
+        #Description: Sent to server when chat is enabled
+        #Placeholders:
+        #   %player% - Player name who turned on chat
+
+    #Chat Clearing
+    Global_Clear_To_Person: "&aYou have cleared the global chat!"
+        #Description: Sent to player who clears the global chat!
+        #Placeholders: n/a
+    Global_Clear_To_Server: "&a%player% has cleared the chat!"
+        #Description: Sent to player who clears the global chat!
+        #Placeholders:
+        #   %player% - Player name who turned on chat
+    Self_Clear: "&aYou have cleared your chat!"
+        #Description: Sent to player who clears their chat!
+        #Placeholders: n/a
+    Other_Clear_To_Person: "&aYou have cleared %player%'s chat!"
+        #Description: Sent to player who clears someone elses chat!
+        #Placeholders:
+        #   %player% - Player name whos chat was cleared
+    Other_Clear_To_Reciever: "&a%player% has cleared your chat!"
+        #Description: Sent to player whos chat got cleared by someone else!
+        #Placeholders:
+        #   %player% - Player name who sent the clear command.
+    Other_Clear_Not_Found: "&a%player% cannot be found!"
+        #Description: Sent to player whos attempts to clear a players chat who is not online.
+        #Placeholders:
+        #   %player% - Player name who cant be found..
+        
+    #Broadcast
+    Broadcast_Name_Format: "&a&l[%player%]: &c%message%"
+        #Description: Used when the broadcast command is sent and the using the player name is true
+        #Placeholders:
+        #   %player% - Player name who sent the broadcast
+        #   %message% - The broadcast message itself
+    Broadcast_Format: "&c&l[Broadcast]: &a%message%"
+        #Description: Used when the broadcast command is sent and the using the player name is false
+        #Placeholders:
+        #   %message% - The broadcast message itself
+        
+    #Messaging
+    Message_To_Sender: "&c[%sender%] -> [%receiver%]: &a%message%"
+        #Description: Sent to the player who sent a message
+        #Placeholders:
+        #   %sender% - Sender of message
+        #   %receiver% - Receiver of message
+        #   %message% - Message sent
+    Message_To_Receiver: "&c[%sender%] -> [%receiver%]: &a%message%"
+        #Description: Sent to player who the message was directed to
+        #Placeholders:
+        #   %sender% - Sender of message
+        #   %receiver% - Receiver of message
+        #   %message% - Message sent
+    Message_Peek: "&4[PEEK] &c[%sender%] -> [%receiver%]: &a%message%"
+        #Description: Sent to staff who have the message peek permission
+        #Placeholders:
+        #   %sender% - Sender of message
+        #   %receiver% - Receiver of message
+        #   %message% - Message sent        
